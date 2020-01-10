@@ -41,7 +41,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="150" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rWc-9j-GNx">
-                        <rect key="frame" x="0.0" y="48" width="320" height="365.5"/>
+                        <rect key="frame" x="0.0" y="40" width="320" height="373.5"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="oJZ-ya-Maw"/>
@@ -61,7 +61,7 @@
                     <constraint firstAttribute="trailing" secondItem="fu5-ZZ-hS2" secondAttribute="trailing" id="Kgq-Kx-uWv"/>
                     <constraint firstItem="fu5-ZZ-hS2" firstAttribute="top" secondItem="rWc-9j-GNx" secondAttribute="bottom" id="OKi-I5-pHL"/>
                     <constraint firstItem="gvI-7Z-9UA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="T9q-d8-jqL"/>
-                    <constraint firstItem="rWc-9j-GNx" firstAttribute="top" secondItem="gvI-7Z-9UA" secondAttribute="bottom" constant="8" id="UFc-cL-lon"/>
+                    <constraint firstItem="rWc-9j-GNx" firstAttribute="top" secondItem="gvI-7Z-9UA" secondAttribute="bottom" id="UFc-cL-lon"/>
                     <constraint firstAttribute="bottom" secondItem="fu5-ZZ-hS2" secondAttribute="bottom" id="fvo-rz-iTT"/>
                     <constraint firstItem="gvI-7Z-9UA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lWv-Yk-H1W"/>
                     <constraint firstItem="fu5-ZZ-hS2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vdc-uc-U68"/>

@@ -59,15 +59,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         dropdownListTestSuite.direction = .bottom
         dropdownListTestSuite.textFont = Constant.font.robotoRegular(ofSize: 15)
         dropdownListTestSuite.anchorView = sender
-        dropdownListTestSuite.bottomOffset = CGPoint(x: 4, y: sender.bounds.size.height)
-//        dropdownListTestSuite.width = sender.bounds.size.width
-        dropdownListTestSuite.width = UIScreen.main.bounds.width - 8
+        dropdownListTestSuite.bottomOffset = CGPoint(x: 0, y: sender.bounds.size.height)
+        dropdownListTestSuite.width = UIScreen.main.bounds.width - 16
         
         dropdownListTestSuite.selectionAction = { (index, item) in
             sender.setTitle(item, for: .normal)
-//            self.btnDropDown.setTitle(self.listTestSuite![index].name ?? " ", for: .normal)
-//            self.testSuiteCode = self.listTestSuite![index].code ?? ""
-//            self.selectedTest = true
             self.name = item
             self.tableView.reloadData()
         }
